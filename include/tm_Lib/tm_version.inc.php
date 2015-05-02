@@ -11,9 +11,9 @@
 /* check Homepage for Updates and more Infos                                    */
 /* Besuchen Sie die Homepage fuer Updates und weitere Infos                     */
 /********************************************************************************/
-	define ('TM_APPNAME','Tellmatic');
-	define ('TM_VERSION','1.0.9.0-rc2-pre');
-	define ('TM_APPDESC',___("Die Newsletter Maschine"));
-	define ('TM_APPURL','www.tellmatic.org');
+	define ('TM_APPNAME','NEWSLETTER-Tellmatic');
+	define ('TM_VERSION','1.0.10');
+	define ('TM_APPDESC',___(""));
+	define ('TM_APPURL','github.com/gaiterjones/tellmatic');
 	define ('TM_APPTEXT', TM_APPNAME.' v'.TM_VERSION.' - '.TM_APPDESC.' ('.TM_APPURL.')');
 ?>

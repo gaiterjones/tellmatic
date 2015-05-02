@@ -1,3 +1,14 @@
+**NEWSLETTER TELLMATIC**
+
+The tellmatic newsletter script developed by Volker Augustin has been around for some time, sadly the author is no longer actively developing it. I needed to update my relatively old (but working) version to work with PHP 5.5 and looked around for a replacement. Sadly most of the scripts out there to purchase are very badly written, after trying a couple I decided to stick with Tellmatic - better the devil you know...
+
+I have forked the latest version (1.0.9-rc2) and will attempt to fix the bugs that I find and enhance it where possible.
+
+Please note, I do not intend to infringe on any intellectual ownership or possible copyright issues with this software. I simply want to continue using a newsletter system that in my opinion is still one of the best free scripts around. For simple newsletter delivery it does what it should do, and still does it well.
+
+Many thanks to Volker Augustin for the time and effort he as invested in this Newsletter system.
+
+
 /********************************************************************************/
 /* this file is part of: / diese Datei ist ein Teil von:                        */
 /* tellmatic, the newslettermachine                                             */

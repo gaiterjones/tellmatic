@@ -252,23 +252,31 @@ if($check) {
 	}
 	
 	$body_tmp=$body.$file_content;
+	
 	// wenn html datei hochgeladen, datei auslesen und an eingegebenen Content anhaengen! $body_tmp !
 	// 	vorher/nachher option?
 	//wir speichern nur ungeparsten content in der DB!!!! ---> $body
 	//und in einer Datei! als Template fuer den geparsten Newsletter
 	$body_tmp=stripslashes($body_tmp);
 	write_file($tm_nlpath,$NL_Filename_N,$body_tmp);
+	
 	//template fuer textpart speichern
 	$body_text_tmp=stripslashes($body_text);
 	write_file($tm_nlpath,$NL_Filename_T,$body_text_tmp);
+	
 	//wird nun zur onlineversion geparsed!
 	//geparster content, wird als nl file gespeichert nl+created bei new und update!
+	
+	// FOR AN UPLOADED HTML FILE THIS PARSE FUNCTION IS NOT REQUIRED!
+	//
 	//new: use parse function !
 	//first fetch newsletter and pass [0] (which is array containing nl data) to parseNL function
-	$NL_parse=$NEWSLETTER->getNL($nl_id,0,0,0,1);//mit content!
+	//$NL_parse=$NEWSLETTER->getNL($nl_id,0,0,0,1);//mit content!
 	//parseNL nutzt nun nicht mehr die files sonern die uebergebenen daten via data['nl'] 
-	$body_p=$NEWSLETTER->parseNL(Array("nl"=>$NL_parse[0]),"html");//no adr record, this is anonymous online version
+	//$body_p=$NEWSLETTER->parseNL(Array("nl"=>$NL_parse[0]),"html");//no adr record, this is anonymous online version
 
 	//geparste nl datei speichern!
-	write_file($tm_nlpath,$NL_Filename_P,$body_p);
+	write_file($tm_nlpath,$NL_Filename_P,$body_tmp);
+	
+	$body=$body_tmp;
 ?>

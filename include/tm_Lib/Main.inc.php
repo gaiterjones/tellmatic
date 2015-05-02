@@ -261,5 +261,5 @@ $_Tpl_Main->setParseValue("_MAIN_MESSAGE", $_MAIN_MESSAGE);
 $_Tpl_Main->setParseValue("_MAIN_HELP", $_MAIN_HELP);
 $_Tpl_Main->setParseValue("_MAIN_OUTPUT", $_MAIN_OUTPUT);
 $_MAIN=$_Tpl_Main->renderTemplate("Main.html")."\n";
-$_MAIN.= "<br><br><center>&copy;-left 2006-2012 <a href=\"http://www.tellmatic.org\" target=\"blank\">".TM_APPTEXT."</a></center><br><br>";
+$_MAIN.= "<br><br><center>&copy; <a href=\"http://www.tellmatic.org\" target=\"blank\">Volker Augustin</a></center><br><br>";
 ?>

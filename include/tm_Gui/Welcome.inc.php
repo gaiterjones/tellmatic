@@ -15,7 +15,7 @@
 $_HELLO=___("Hallo");
 $_USER_NAME=$LOGIN->USER['name'];
 
-$_WELCOME=sprintf(___("Willkommen bei %s"),TM_APPTEXT);
+$_WELCOME=TM_APPTEXT;
 $_LOGGED_IN_AS=sprintf(___("Angemeldet als: %s"),"<b>".$_USER_NAME."</b>");
 
 $_MAIN_HELP.=$_WELCOME."<br>".$_LOGGED_IN_AS;
@@ -34,13 +34,6 @@ foreach ($LANGUAGES['text'] as $lg) {
 
 $_STYLE=___("Layout / Style").": <b>".$LOGIN->USER['style']."</b>";
 
-//get version and messages
-
-if ($C[0]['check_version']==1) {
-	$t_new_version=getCurrentVersion();
-	$t_messages=getMessages();
-}
-
 //new Template
 $_Tpl_Welcome=new tm_Template();
 $_Tpl_Welcome->setTemplatePath(TM_TPLPATH);
@@ -58,18 +51,11 @@ $_Tpl_Welcome->setParseValue("_LANG_CODE", $_LANG_CODE);
 $_Tpl_Welcome->setParseValue("_LANG_SUPPORTED", $_LANG_SUPPORTED);
 $_Tpl_Welcome->setParseValue("_LANG_SELECTED", $_LANG_SELECTED);
 
-if ($C[0]['check_version']==1) {
-	$_Tpl_Welcome->setParseValue("_VERSION_INFO", sprintf(___("Aktuell verfügbare Version: %s"),$t_new_version));
-	$_Tpl_Welcome->setParseValue("_T_MESSAGES", $t_messages);
-} else {
-	$_Tpl_Welcome->setParseValue("_VERSION_INFO","");
-	$_Tpl_Welcome->setParseValue("_T_MESSAGES","");
-}
+$_Tpl_Welcome->setParseValue("_VERSION_INFO","");
+$_Tpl_Welcome->setParseValue("_T_MESSAGES","");
+
 //parse
 $_MAIN_OUTPUT.=$_Tpl_Welcome->renderTemplate("Welcome.html");
-
-
-
 
 /*
 testcode
