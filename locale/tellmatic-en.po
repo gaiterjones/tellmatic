@@ -1,7 +1,5 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# TELLMATIC ENGLISH TRANSLATIONS.
+# Copyright (C) 2015
 #
 msgid ""
 msgstr ""
@@ -46,7 +44,7 @@ msgid "Kein Passwort angegeben"
 msgstr "No Password"
 
 msgid "Bitte zwei mal das gleiche Passwort angeben"
-msgstr "Please enter same password twice"
+msgstr "Please enter the same password twice"
 
 msgid "E-Mail darf nicht leer sein"
 msgstr "E-mail should not be empty"
@@ -72,7 +70,7 @@ msgid "FEHLER! Sie verwenden PHP Version < 4.4. Tellmatic benötigt mindestens V
 msgstr "ERROR! You need at least  PHP version < 4.4 to run Tellmatic"
 
 msgid "PHP läuft unter Windows. Weitere Details finden Sie den den Dateien README und INSTALL oder der FAQ."
-msgstr "Warning! You use windows, please read README, INSTALL and FAQ"
+msgstr "Warning! You are using windows, please read README, INSTALL and FAQ"
 
 msgid "Die Funktion imap_open() existiert nicht. Bouncemanagement und Mailbox wird nicht funktionieren. Weitere Details finden Sie den den Dateien README und INSTALL oder der FAQ."
 msgstr "The PHP function imap_open is not available, bouncemanagement and mailbox can not be used."
@@ -88,13 +86,13 @@ msgid "Adressen"
 msgstr "Addresses"
 
 msgid "Adressen - Details"
-msgstr "Addresses - details"
+msgstr "Address - details"
 
 msgid "Adressen - Gruppen"
-msgstr "Addresses - groups"
+msgstr "Address - groups"
 
 msgid "Adressen - Referenzen"
-msgstr "Addresses - references"
+msgstr "Address - references"
 
 msgid "Einstellungen"
 msgstr "Settings"
@@ -122,7 +120,7 @@ msgid "Datenbank: %s wurde erstellt"
 msgstr "Database: %s created"
 
 msgid "Ein Fehler beim Erstellen der Datenbank ist aufgetreten"
-msgstr "An error occured creating the database"
+msgstr "An error occurred creating the database"
 
 msgid "Eine E-Mail mit folgenden Informationen wurde an den Entwickler von Tellmatic gesendet"
 msgstr "An email with the following informations have been sent to the developer of Tellmatic"
@@ -176,10 +174,10 @@ msgid "SMTP Domainname"
 msgstr "SMTP domain name"
 
 msgid "Informationen"
-msgstr "Informations"
+msgstr "Information"
 
 msgid "Informationen an den Entwickler von Tellmatic senden"
-msgstr "Send informations to the developer of Tellmatic"
+msgstr "Send information to the developer of Tellmatic"
 
 msgid "Installieren"
 msgstr "Install"
@@ -231,10 +229,10 @@ msgid "Systemeinstellungen ändern"
 msgstr "Edit system-settings"
 
 msgid "Erscheint als Absender-name in der E-Mail"
-msgstr "Will shown as sender-name in your mailings."
+msgstr "Will show as sender-name in your mailings."
 
 msgid "Erscheint als Absender-E-Mail-Adresse in der E-Mail"
-msgstr "Will shown as sender-address in you mailings."
+msgstr "Will show as sender-address in you mailings."
 
 msgid "Nachricht bei Anmeldung"
 msgstr "Notify on subscription"
@@ -309,7 +307,7 @@ msgid "Benachrichtigung"
 msgstr "Notify"
 
 msgid "Benachrichtigung bei Neuanmeldung (subscribe)"
-msgstr "Notify on subscriptions"
+msgstr "Notify on subscription"
 
 msgid "Benachrichtigung bei Abmeldung (unsubscribe)"
 msgstr "Notify on unsubscribe"
@@ -351,7 +349,7 @@ msgid "Blind- bzw. Tracking Bild auswählen oder neues Bild hochladen"
 msgstr "Select existing tracking image or upload a new one"
 
 msgid "Sie haben keine Berechtigung dies zu tun"
-msgstr "You have no permission to do this"
+msgstr "You do not have permission to do this"
 
 msgid "Track-BILD-Datei erfolgreich hochgeladen."
 msgstr "Tracking image uploaded successfully"
@@ -364,7 +362,7 @@ msgstr "Tracking image could not be uploaded"
 
 #, c-format
 msgid "Die Tracker-BILD-Datei darf nur eine GrÖsse von %s Byte besitzen."
-msgstr "The tracking image file should have a mximum size of %s bytes"
+msgstr "The tracking image file should have a maximum size of %s bytes"
 
 msgid "Die Tracker-BILD-Datei besitzt eine ungültige Endung."
 msgstr "Tracking image file has unknown or invalid extension."
@@ -379,10 +377,10 @@ msgid "Absender-Name darf nicht leer sein"
 msgstr "Sender name should not be empty."
 
 msgid "Die E-Mail-Adresse für Fehlermeldungen darf nicht leer sein"
-msgstr "Returnpath address should not be empty."
+msgstr "Return path address should not be empty."
 
 msgid "Die E-Mail-Adresse für Fehlermeldungen ist nicht gültig."
-msgstr "Returnpath address is invalid."
+msgstr "Return path address is invalid."
 
 msgid "Die E-Mail-Adresse für Benachrichtigungen darf nicht leer sein"
 msgstr "Notification address should not be empty."
@@ -420,7 +418,7 @@ msgid "Passwort sollte mindestens %s Zeichen haben."
 msgstr "Password should have a length of at least %s characters"
 
 msgid "Bitte geben Sie zweimal das gleiche Passwort an."
-msgstr "Please enter same password twice"
+msgstr "Please enter the same password twice"
 
 msgid "Passwort wurde nicht geändert."
 msgstr "Password not changed"
@@ -532,7 +530,7 @@ msgid "Bearbeiten"
 msgstr "Edit"
 
 msgid "Gruppe löschen und Adressen der Standardgruppe zuordnen"
-msgstr "Delete addressgroup %s and de-reference subscription-forms? Members of this group will be assigned to the default-group"
+msgstr "Delete address group %s and de-reference subscription-forms? Members of this group will be assigned to the default-group"
 
 msgid "Neuen Benutzer anlegen"
 msgstr "Create new user"
@@ -554,7 +552,7 @@ msgid "Suche nach Adress-Status"
 msgstr "Search for status"
 
 msgid " -- Alle fehlerhaften Adressen -- "
-msgstr "All failed or errorness addresses"
+msgstr "All failed or errored addresses"
 
 msgid "Aktion"
 msgstr "Action"
@@ -605,7 +603,7 @@ msgid "Gruppen wählen, STRG/CTRL gedrückt halten und klicken f. Mehrfachauswah
 msgstr "Select groups, hold CTRL-key to select multiple groups."
 
 msgid "Nur Adressen mit diesem Status exportieren"
-msgstr "Expport only addresses with selected status"
+msgstr "Export only addresses with selected status"
 
 msgid "Trennzeichen"
 msgstr "Delimiter"
@@ -768,7 +766,7 @@ msgstr "Make this address-group the default-group"
 
 #, c-format
 msgid "Adressgruppe %s löschen und Adressen dieser Gruppe der Standardgruppe zuordnen und Verknüpfungen zu Formularen aufheben?"
-msgstr "Delete addressgroup %s and de-reference subscription-forms? Members of this group will be assigned to the default-group."
+msgstr "Delete address group %s and de-reference subscription-forms? Members of this group will be assigned to the default-group."
 
 msgid "Adressgruppe löschen"
 msgstr "Delete address-group"
@@ -848,7 +846,7 @@ msgid "Importierte Adressen löschen"
 msgstr "Delete imported addresses"
 
 msgid "Importierte Adressen in die Robinsonliste eintragen"
-msgstr "Import addresses to blackllist"
+msgstr "Import addresses to black list"
 
 msgid "Auf doppelt vorhandene Adressen prüfen"
 msgstr "Check for already existing addresses"
@@ -1155,7 +1153,7 @@ msgstr "%s mails matched"
 
 #, c-format
 msgid "Es wurden aus %s Adressen %s (eindeutige) potentiell fehlerhafte Adressen erkannt."
-msgstr "%s of %s addresses (unique) were detected as errorness or failed"
+msgstr "%s of %s addresses (unique) were detected with erros or failed"
 
 msgid "Adresse"
 msgstr "Address"
@@ -1329,7 +1327,7 @@ msgstr "Select all / Invert selection"
 
 #, c-format
 msgid "Es wurden aus %s Adressen %s potentiell Fehlerhafte Adressen erkannt."
-msgstr "%s of %s addresses were detected as errorness or failed"
+msgstr "%s of %s addresses were detected with erros or failed"
 
 msgid "Hilfe / Dokumentation"
 msgstr "Help / Documentation"
@@ -1399,7 +1397,7 @@ msgid "Werte, (Trennzeichen ; (Semikolon)"
 msgstr "Values, (delimiter is ; (semicolon))"
 
 msgid "Fehlermeldung"
-msgstr "Errormessage"
+msgstr "Error message"
 
 msgid "Regulärer Ausdruck"
 msgstr "Regular expression"
@@ -1578,7 +1576,7 @@ msgid "ungültiger Refferrer"
 msgstr "invalid refferer"
 
 msgid "Falscher Benutzer, Passwort ungültig oder Benutzer deaktiviert, Anmeldung ist fehlgeschlagen"
-msgstr "Wrong user, invalid password oder user is de-activaed. Login failed."
+msgstr "Wrong user, invalid password or user is de-activated. Login failed."
 
 msgid "Zeitüberschreitung"
 msgstr "Timeout"
@@ -1647,13 +1645,13 @@ msgid "Neue Newsletter-Gruppe anlegen"
 msgstr "Create new newsletter group"
 
 msgid "Hier erstellen Sie eine neue Newslettergruppe"
-msgstr "Here you create a new newsletter-group"
+msgstr "Here you can create a new newsletter-group"
 
 msgid "Newsletter anzeigen"
 msgstr "Show newsletter"
 
 msgid "Hier verwalten Sie Ihre Newsletter"
-msgstr "Here you manage your newsletter"
+msgstr "Here you can manage your newsletter"
 
 msgid "Neuer Newsletter"
 msgstr "New newsletter"
@@ -1662,7 +1660,7 @@ msgid "Neuen Newsletter anlegen"
 msgstr "Create new newsletter"
 
 msgid "Hier erstellen Sie einen neuen Newsletter"
-msgstr "Here you create a new newsletter"
+msgstr "Here you can create a new newsletter"
 
 msgid "Neue Queue"
 msgstr "New queue"
@@ -1677,13 +1675,13 @@ msgid "Adress-Gruppen anzeigen"
 msgstr "Show address groups"
 
 msgid "Hier verwalten Sie Ihre Adress-Gruppen"
-msgstr "Here you manage your recipient groups"
+msgstr "Here you can manage your recipient groups"
 
 msgid "Neue Adress-Gruppe anlegen"
 msgstr "Create recipient group"
 
 msgid "Hier erstellen Sie eine neue Adress-Gruppe"
-msgstr "Here you create new recipient groups"
+msgstr "Here you can create new recipient groups"
 
 msgid "Hier können Sie Ihre Adressen suchen, anzeigen und bearbeiten"
 msgstr "Here you can view, search  and edit your recipients"
@@ -1695,7 +1693,7 @@ msgid "Neue Adresse anlegen"
 msgstr "Create new address"
 
 msgid "Hier erfassen Sie Adressen manuell"
-msgstr "Here you create new addresses manually"
+msgstr "Here you can create new addresses manually"
 
 msgid "CSV-Import"
 msgstr "CSV import"
@@ -1716,7 +1714,7 @@ msgid "Formulare anzeigen"
 msgstr "Show forms"
 
 msgid "Hier verwalten Sie Ihre Anmeldeformulare"
-msgstr "Here you manage your subscription-forms"
+msgstr "Here you can manage your subscription-forms"
 
 msgid "Neues Formular"
 msgstr "New form"
@@ -1740,7 +1738,7 @@ msgid "Aktueller Status"
 msgstr "Current status"
 
 msgid "Hier sehen Sie den aktuellen Status"
-msgstr "Here you see  the current status of the database"
+msgstr "Here you can see the current status of the database"
 
 msgid "Karte"
 msgstr "Map"
@@ -1749,7 +1747,7 @@ msgid "Benutzer-Karte, zeige die Standorte der Leser"
 msgstr "User map, shows location of your subscribers"
 
 msgid "Hier sehen Sie die geographische Verteilung der Leser"
-msgstr "Here you see the geographical mapping of your readers"
+msgstr "Here you can see the geographical mapping of your readers"
 
 msgid "Bounce-Management"
 msgstr "Bounce management"
@@ -1770,10 +1768,10 @@ msgid "Hier versenden Sie Ihre Newsletter manuell"
 msgstr "Send newsletter manually"
 
 msgid "Abmeldeformular"
-msgstr "Unsubscription form"
+msgstr "Unsubscribe form"
 
 msgid "Hier gelangen Sie zum Abmeldeformular"
-msgstr "Go to unsubscription form"
+msgstr "Go to Unsubscribe form"
 
 msgid "Benutzereinstellungen"
 msgstr "User settings"
@@ -1785,7 +1783,7 @@ msgid "Dokumentation"
 msgstr "Documentation"
 
 msgid "Hier wird Ihnen geholfen"
-msgstr "Here you get help"
+msgstr "Here you can get help"
 
 msgid "Credits"
 msgstr "Credits"
@@ -1886,10 +1884,10 @@ msgid "Betreff"
 msgstr "Subject"
 
 msgid "Massenmailing"
-msgstr "Massmailing"
+msgstr "Mass mailing"
 
 msgid "personalisiertes Newsletter"
-msgstr "Personalized newsletter"
+msgstr "Personalised newsletter"
 
 msgid "Bild"
 msgstr "Image"
@@ -1898,7 +1896,7 @@ msgid "HTML"
 msgstr "HTML"
 
 msgid "Anhang"
-msgstr "Attachement"
+msgstr "Attachment"
 
 msgid "Text"
 msgstr "Text"
@@ -1916,7 +1914,7 @@ msgstr "%s contains the link 'a href' | %s contains only the url."
 
 #, c-format
 msgid "%s enthält den Link zum Attachement 'a href' |  %s enthält nur die URL zum Attachement"
-msgstr "%s contains the link to the attachement 'a href' | %s contains only the url."
+msgstr "%s contains the link to the attachment 'a href' | %s contains only the url."
 
 #, c-format
 msgid "%s enthält den Link zum abmelden |   %s enthält nur die URL zum Abmeldeformular"
@@ -1931,7 +1929,7 @@ msgid "%s enthält das schliessende TAG '/a' fuer die Links"
 msgstr "%s contains the closing tag for links '/a'."
 
 msgid "Nur für personalisierten Newsleter:"
-msgstr "Only available for personal mailings: (no massmailing/BCC)"
+msgstr "Only available for personal mailings: (no mass mailing/BCC)"
 
 #, c-format
 msgid "%s enthält das Tracker-Bild (für View-Tracking, nur HTML-Mails)"
@@ -1977,7 +1975,7 @@ msgstr "This is the default newsletter group"
 
 #, c-format
 msgid "Newslettergruppe %s löschen und Newsletter dieser Gruppe der Standardgruppe zuordnen?"
-msgstr "Delete newsletter group %s and reassing newsletter to default group?"
+msgstr "Delete newsletter group %s and reassign newsletter to default group?"
 
 msgid "Newslettergruppe löschen"
 msgstr "Delete newsletter group"
@@ -2020,7 +2018,7 @@ msgid "Anhang wurde gelöscht."
 msgstr "Attachement deleted"
 
 msgid "Anhang konnte nicht gelöscht werden."
-msgstr "Could not delete attachement"
+msgstr "Could not delete attachment"
 
 #, c-format
 msgid "%s Queues für diese Newsletter wurden gelöscht."
@@ -2040,7 +2038,7 @@ msgid "Titel"
 msgstr "Title"
 
 msgid "personalisierter Newsletter"
-msgstr "Personalized newsletter"
+msgstr "Personalised newsletter"
 
 msgid "TEXT/HTML"
 msgstr "TEXT/HTML"
@@ -2121,10 +2119,10 @@ msgid "Template anzeigen"
 msgstr "Show template"
 
 msgid "Onlineversion des Newsletter anzeigen: "
-msgstr "Show onlineversion for newsletter:"
+msgstr "Show online version for newsletter:"
 
 msgid "Onlineversion anzeigen"
-msgstr "Show onlineversion"
+msgstr "Show online version"
 
 msgid "Bild für diesen Newsletter anzeigen: "
 msgstr "Show image for newsletter"
@@ -2148,13 +2146,13 @@ msgid "HTML-Datei löschen"
 msgstr "Delete HTML file"
 
 msgid "Anhang für diesen Newsletter laden"
-msgstr "Load attachement for newsletter"
+msgstr "Load attachment for newsletter"
 
 msgid "Anhang laden"
 msgstr "Load attachement"
 
 msgid "Anhang anzeigen"
-msgstr "Show attachement"
+msgstr "Show attachment"
 
 msgid "Anhang löschen"
 msgstr "Delete attachement"
@@ -2181,7 +2179,7 @@ msgid "Kopieren(+Dateien)"
 msgstr "Copy (+files)"
 
 msgid "Massenmailing (per BCC:, kein feedback)"
-msgstr "Massmailing (via BCC, no feedback)"
+msgstr "Mass mailing (via BCC, no feedback)"
 
 msgid "Queue-Eintrag hinzufügen, zum Versenden vorbereiten"
 msgstr "Create queue entry, prepare delivery"
@@ -2233,7 +2231,7 @@ msgid "Template:"
 msgstr "Template:"
 
 msgid "HTML-Datei erfolgreich hochgeladen."
-msgstr "HTML file successfullly uploaded"
+msgstr "HTML file successfully uploaded"
 
 msgid "HTML-Code wurde angefügt."
 msgstr "HTML code appended"
@@ -2246,7 +2244,7 @@ msgstr "Could not upload HTML file"
 
 #, c-format
 msgid "Die HTML-Datei darf nur eine Grösse von %s Byte haben."
-msgstr "The HTML file should have a mximum size of %s bytes."
+msgstr "The HTML file should have a maximum size of %s bytes."
 
 msgid "Die HTML-Datei besitzt eine ungültige Endung."
 msgstr "The HTML-file has an invalid extension."
@@ -2259,7 +2257,7 @@ msgstr "Could not upload image file"
 
 #, c-format
 msgid "Die BILD-Datei darf nur eine Grösse von %s Byte besitzen."
-msgstr "The image file should have a mximum size of %s bytes."
+msgstr "The image file should have a maximum size of %s bytes."
 
 msgid "Die BILD-Datei besitzt eine ungültige Endung."
 msgstr "The image file has an invalid extension."
@@ -2268,11 +2266,11 @@ msgid "Anhang erfolgreich hochgeladen."
 msgstr "Attachement uploaded successfully"
 
 msgid "Anhang konnte nicht hochgeladen werden."
-msgstr "Could not upload attachement"
+msgstr "Could not upload attachment"
 
 #, c-format
 msgid "Der Anhang Datei darf nur eine Grösse von %s Byte haben."
-msgstr "The attachement should have a mximum size of %s bytes."
+msgstr "The attachment should have a maximum size of %s bytes."
 
 #, c-format
 msgid "Die Tracker-BILD-Datei darf nur eine Grösse von %s Byte besitzen."
@@ -2295,7 +2293,7 @@ msgid "Newsletter whlen"
 msgstr "Select newsletter"
 
 msgid "(Massenmailing)"
-msgstr "(massmailing)"
+msgstr "(mass mailing)"
 
 msgid "(personalisiert)"
 msgstr "(personal)"
@@ -2307,7 +2305,7 @@ msgid "Versandliste sofort aktivieren"
 msgstr "Activate recipients list now"
 
 msgid "Datum des terminierten Versands"
-msgstr "Date starting delivery job"
+msgstr "Delivery job start date"
 
 msgid "Stunde"
 msgstr "Hour"
@@ -2331,7 +2329,7 @@ msgid "Versandliste sofort erstellen"
 msgstr "Create queue list now"
 
 msgid "Newsletter Warteschlange (Q)"
-msgstr "Newsletter wueue"
+msgstr "Newsletter queue"
 
 msgid "Logfile wurde gelöscht."
 msgstr "Logfile deleted"
@@ -2495,7 +2493,7 @@ msgid "Die Seite wird in %s Sekunden automatisch neu geladen."
 msgstr "This page will reload in %s seconds"
 
 msgid "Klicken Sie auf 'Neu laden' wenn Sie diese Seite erneut aufrufen wollen."
-msgstr "Please lcick on 'Reload' to reload this page."
+msgstr "Please click on 'Reload' to reload this page."
 
 msgid "Neu laden"
 msgstr "Reload"
@@ -2523,7 +2521,7 @@ msgstr "Delivery status"
 
 #, c-format
 msgid "Versand von %s"
-msgstr "Delievery of %s"
+msgstr "Delivery of %s"
 
 #, c-format
 msgid "Inhalt-Typ: %s"
@@ -2577,7 +2575,7 @@ msgid "Sendeaufträge insgesamt:"
 msgstr "Delivery jobs total"
 
 msgid "Auftragsstatus:"
-msgstr "Delievery job status:"
+msgstr "Delievry job status:"
 
 #, c-format
 msgid "Empfänger %s"
@@ -2689,13 +2687,13 @@ msgid "Fehler beim versenden, Status/Aktiv wurde geändert vor dem versenden!"
 msgstr "Error on delivery, status changed while sending!"
 
 msgid "Fehlerhafte Adresse o. Rückläufer"
-msgstr "Errorness, failed address or bouncing"
+msgstr "Error, failed address or bouncing"
 
 msgid "Fehler beim versenden, neuer Versuch"
 msgstr "Error on delivery, retry"
 
 msgid "1st-Touch-Opt-In"
-msgstr "!st touch opt-in"
+msgstr "1st touch opt-in"
 
 msgid "Queued"
 msgstr "Queued"
@@ -2767,7 +2765,7 @@ msgid "Wird in diesem Moment versendet!!!"
 msgstr "Just delivering"
 
 msgid "Abgebrochen, Q gelöscht"
-msgstr "Canceld, q deleted"
+msgstr "Cancelled, q deleted"
 
 #, c-format
 msgid "%s Gruppen"
@@ -2861,7 +2859,7 @@ msgid "Die Newsletter Maschine"
 msgstr "the newsletter machine"
 
 msgid "Benutzereinstellungen ändern"
-msgstr "Change usersettings"
+msgstr "Change user settings"
 
 #, c-format
 msgid "Einstellungen für Benutzer %s ändern"
@@ -2904,10 +2902,10 @@ msgid "Newsletter wählen"
 msgstr "Select newsletter"
 
 msgid "Daten für den Zugriff auf die Datenbank sind nicht vollständig (Host,Name,User,Passwort?)"
-msgstr "Data to access database are not complete (host,name,user,passwd)"
+msgstr "Data to access database are not complete (host,name,user,password)"
 
 msgid "Daten für den Zugriff auf die Datenbank sind nicht vollständig (Port? oder Socket?)"
-msgstr "Data to access database are not complete (port? socket?)"
+msgstr "Data to access database is not complete (port? socket?)"
 
 msgid "WARNUNG!"
 msgstr "Warning!"
@@ -3035,7 +3033,7 @@ msgid "Historie ausgewählter Adressen werden gelöscht."
 msgstr "History of selected addresses will be deleted."
 
 msgid "Blacklist Überprüfung"
-msgstr "Check Blaclist"
+msgstr "Check Blacklist"
 
 msgid "Keine Überprüfung. Alle exportieren."
 msgstr "No checking, export all."
@@ -3098,7 +3096,7 @@ msgid "Ausgewählte Adressen in Blacklist eintragen"
 msgstr "Add selected addresses to blacklist"
 
 msgid "Domains der ausgewählten Adressen in Blacklist eintragen"
-msgstr "Add domains of selected addresses to blacklist"
+msgstr "Add selected address domains to blacklist"
 
 msgid "Historie für ausgewählte Adressen löschen"
 msgstr "Delete history of selected addresses"
@@ -3198,7 +3196,7 @@ msgid "Es wurden insgesamt %s Einträge aus der Blacklist exportiert."
 msgstr "Totally %s entries exported from blacklist"
 
 msgid "Ausdruck (E-Mail/Domain/RegEx)"
-msgstr "Expression (emailaddress/domain/regex)"
+msgstr "Expression (email address/domain/regex)"
 
 msgid "Typ"
 msgstr "type"
@@ -3327,7 +3325,7 @@ msgstr "The hostname or ip address must be entered"
 
 #, c-format
 msgid "Mail-Server %s wurde bearbeitet."
-msgstr "Mailserver %s has been edited."
+msgstr "Mail server %s has been edited."
 
 msgid "Mailserver bearbeiten"
 msgstr "Edit mailserver"
@@ -3403,39 +3401,39 @@ msgid "Server löschen"
 msgstr "Delete server"
 
 msgid "Mail-Server ist Aktiv"
-msgstr "Mailserver is active"
+msgstr "Mail server is active"
 
 msgid "Mail-Server ist Inaktiv"
-msgstr "Mailserver is inactive"
+msgstr "Mail server is inactive"
 
 msgid "Mail-Server ist Aktiv/Inaktiv (Klick=Deaktivieren/Aktivieren)"
-msgstr "Mailserver is active/inactive (click=deactivate/activate)"
+msgstr "Mail server is active/inactive (click=deactivate/activate)"
 
 msgid "IMAP4"
 msgstr "IMAP4"
 
 msgid "Mail-Server ist vom Typ SMTP/POP3/IMAP)"
-msgstr "Mailserver is from type POP3/IMAP/SMTP"
+msgstr "Mail server is from type POP3/IMAP/SMTP"
 
 msgid "Mail-Server löschen"
 msgstr "Delete mailserver"
 
 msgid "Neuen Mailserver eintragen"
-msgstr "Add new mailserver"
+msgstr "Add new mail server"
 
 #, c-format
 msgid "Neuer Mailserver %s wurde angelegt."
-msgstr "Mailserver %s has been added"
+msgstr "Mail server %s has been added"
 
 #, c-format
 msgid "Eine Testmail wurde an die E-Mail-Adresse %s %s gesendet."
 msgstr "A testmail was sent to %s %s"
 
 msgid "Der Test war nicht erfolgreich."
-msgstr "The test was not successfull"
+msgstr "The test was not successful"
 
 msgid "Der Test war erfolgreich."
-msgstr "The test was successfull"
+msgstr "The test was successful"
 
 msgid "Queue"
 msgstr "Queue"
@@ -3444,7 +3442,7 @@ msgid "Queue / Warteschlange anzeigen"
 msgstr "Show Queue"
 
 msgid "Hier sehen Sie den Versandstatus Ihrer Newsletter"
-msgstr "Here you see the status of your current sendig queues"
+msgstr "Here you see the status of your current send queues"
 
 msgid "Blackliste/Robinsonliste"
 msgstr "Blacklist"
@@ -3496,14 +3494,14 @@ msgid "Mail-Server: %s"
 msgstr "Mailserver: %s"
 
 msgid "Mail-Server ist nicht aktiv!"
-msgstr "Mailserver is not active!"
+msgstr "Mail server is not active!"
 
 msgid "Mail-Server wurde gelöscht!"
-msgstr "Mailserver has been deleted!"
+msgstr "Mail server has been deleted!"
 
 #, c-format
 msgid "Q ID: %s und Historie löschen?"
-msgstr "Delete Qeue ID: %s and history?"
+msgstr "Delete Queue ID: %s and history?"
 
 msgid "Q komplett Löschen"
 msgstr "Complete deletion of Queue"
@@ -3516,16 +3514,16 @@ msgstr "Reload"
 
 #, c-format
 msgid "Ausgewählter Mail-Server: %s"
-msgstr "Selected mailserevr: %s"
+msgstr "Selected mail serevr: %s"
 
 msgid "Kein Mail-Server gewählt. Nichts hinzugefügt"
-msgstr "No mailserver choosen, nothing added."
+msgstr "No mail server chosen, nothing added."
 
 msgid "Schnelles einfügen: E-Mail-Adressen werden nicht überpüft."
-msgstr "Fast insert! emailaddresses are not checked"
+msgstr "Fast insert! email addresses were not checked"
 
 msgid "Normales einfügen: E-Mail-Adressen werden überpüft."
-msgstr "Default insert method: emailaddresses will be checked"
+msgstr "Default insert method: email addresses will be checked"
 
 #, c-format
 msgid "%s Einträge eingefügt."
@@ -3624,11 +3622,11 @@ msgid "Filtern nach Author/Formular"
 msgstr "Filter author/form"
 
 msgid "Testadressen erzeugen"
-msgstr "Create testaddresses"
+msgstr "Create test addresses"
 
 #, c-format
 msgid "Erstelle %s Testadressen in der(den) Gruppe(n) :"
-msgstr "Creating %s testaddresses in group(s):"
+msgstr "Creating %s test addresses in group(s):"
 
 msgid "Adressen exportieren"
 msgstr "Export addresses"
@@ -3692,10 +3690,10 @@ msgid "URL"
 msgstr "URL"
 
 msgid "Die E-Mail-Adresse für Antworten darf nicht leer sein"
-msgstr "The emailaddress for replies should not be empty."
+msgstr "The email address for replies should not be empty."
 
 msgid "Die Antwort-E-Mail-Adresse ist nicht gültig."
-msgstr "Die reply emailaddress is not valid."
+msgstr "Die reply email address is not valid."
 
 msgid "SSL"
 msgstr "SSL"
@@ -3882,7 +3880,7 @@ msgid "Wählen Sie Ihre Sprache für die Tellmatic Weboberfläche"
 msgstr "Please select language for the Tellmatic webinterface"
 
 msgid "Geben Sie bitte eine gültige E-Mail-Adresse an. Diese Adresse können Sie später jederzeit ändern. Die angegebene Adresse dient als Standardadresse für Mailings etc."
-msgstr "Please enter a valid email. You can changhe the email later. This emailaddress will be the default."
+msgstr "Please enter a valid email. You can change the email later. This email address will be the default."
 
 msgid "Datenbank"
 msgstr "Database"
@@ -3891,7 +3889,7 @@ msgid "Tragen Sie hier den Host-Namen oder die IP-Adresse Ihres Datenbankservers
 msgstr "Enter hostname or ip address of your database server."
 
 msgid "Geben Sie die Portnummer an unter der der Datenbankserver Verbindungen entgegennimmt. (Standard ist 3306 für MySQL)"
-msgstr "Enter portnumber of your database server (default is 3306 for MySQL)"
+msgstr "Enter port number of your database server (default is 3306 for MySQL)"
 
 msgid "Wählen Sie Sockets wenn der Datenbankserver keine Verbindung über TCP/IP zulässt."
 msgstr "Select Sockets if database server does not allow TCP/IP"
@@ -3900,19 +3898,19 @@ msgid "Wählen Sie den Typ der Datenbank (Standard is MyISAM für MySQL)"
 msgstr "Please select MySQL Database Type (default is MyISAM for MySQL)"
 
 msgid "Tragen Sie den Namen der Datenbank ein, sowie den namen des Datenbankbenutzers und das zugehörige Passwort."
-msgstr "Please enter name of database, username and pasword"
+msgstr "Please enter name of database, username and password"
 
 msgid "Optional: Geben Sie einen TabellenPrefix ein. Dieser wird vor die Tabellennamen von tellmatic gesetzt. Wird ein Prefix angegeben, so fuegt Tellmatic automatisch ein _ an den Prefix an. Ein Prefix wird empfohlen wenn nur eine Datenbank zur Verfuegung steht und diese sich mehrere Programme teilen."
-msgstr "Optional: Table Prefix (useful if you only have one database for different web apps.) Prefix is put in front of tablenames used by Tellmatic. If you enter a prefix a underscore _ will be added automatical between prefix and tablename."
+msgstr "Optional: Table Prefix (useful if you only have one database for different web apps.) Prefix is put in front of table names used by Tellmatic. If you enter a prefix a underscore _ will be added automatical between prefix and table name."
 
 msgid "Mail Server"
 msgstr "Mail Server"
 
 msgid "Geben Sie den Host-Namen Ihres E-Mail-Servers an. Z.Bsp.: mail.oneofmydomains.tld"
-msgstr "Enter hostname or IP address of your mailserver. e.g. mail.oneofmydomains.tld"
+msgstr "Enter hostname or IP address of your mail server. e.g. mail.oneofmydomains.tld"
 
 msgid "Tragen Sie die Portnummer Ihres E-Mail-Servers ein unter der Verbindungen entgegen genommen werden. (Standard für SMTP ist 25, manchmal auch 587)"
-msgstr "Enter portnumber for mailserver (usually 25 for SMTP, sometimes 587)"
+msgstr "Enter port number for mail server (usually 25 for SMTP, sometimes 587)"
 
 msgid "Benutzername für den SMTP-Server."
 msgstr "Username for SMTP-Server"
@@ -3921,7 +3919,7 @@ msgid "Das Passwort für den SMTP-Benutzer."
 msgstr "Password for SMTP-User"
 
 msgid "Bitte geben Sie hier den Domainnamen an mit der sich Tellmatic am SMTP-Server anmeldet. Im Regelfall ist das der Domainname der Webseite, ohne www.!"
-msgstr "Please enter domainname Tellmatic should use to connect to mailserver. Usually this is the domainname of your website without www.!"
+msgstr "Please enter domain name Tellmatic should use to connect to mail server. Usually this is the domain name of your website without www.!"
 
 msgid "Wählen Sie hier die Authentifizierungsmethode die Tellmatic verwenden soll um sich am SMTP Server anzumelden."
 msgstr "Please select authentication method for the SMTP-Server"
@@ -3933,10 +3931,10 @@ msgid "Soll eine Installations-Mail an die Entwickler von Tellmatic gesendet wer
 msgstr "Should we send an email to the Tellmatic developers? The email does NOT contain sensitive data like usernames and passwords. It is only used for statistics."
 
 msgid "Wenn Sie alle Angaben gemacht haben bestätigen Sie bitte hier. Tellmatic wird im nächsten Schritt installiert. Sollten Fehler auftreten wird dieses Formular wieder angezeigt und eine Warnmeldung bezüglich der aufgetretenen Fehler ausgegeben."
-msgstr "If you have filled out all necessary fields, please click to continue. In the next step we will check the input and if everything works Tellmatic gets installed. If there are any errrors a message will be shown."
+msgstr "If you have completed all necessary fields, please click to continue. In the next step we will check the input and if everything works Tellmatic will be installed. If there are any errors a message will be shown."
 
 msgid "Demo! Dateimanager deaktiviert."
-msgstr "Demo! Filemanager not available."
+msgstr "Demo! File manager not available."
 
 msgid "Auswahl erzwingen"
 msgstr "Force selection"
@@ -4005,7 +4003,7 @@ msgid "nur Mails an TO: bearbeiten"
 msgstr "only check email to TO;"
 
 msgid "Filter E-Mail-Adresse für Bouncemanagement)"
-msgstr "Filer email address for bouncemanagement"
+msgstr "Filer email address for bounce management"
 
 msgid "Bounce: suche nach Adressen"
 msgstr "Bounce: search for addresses"
@@ -4029,7 +4027,7 @@ msgid "Aktion beim Abmelden"
 msgstr "Action on unsubscribe"
 
 msgid "Captcha/Spamcode im Abmeldeformular prüfen"
-msgstr "Check Capctha Code in unsubscribe form"
+msgstr "Check Captcha Code in unsubscribe form"
 
 msgid "Automatische Prüfung via check_it.php"
 msgstr "Automatic verification with check_it.php"
@@ -4059,22 +4057,22 @@ msgid "Wenn Prüfung OK, Status zurücksetzen"
 msgstr "If check OK, reset status"
 
 msgid "Automatisches Bouncemanagement via bounce_it.php"
-msgstr "Automatic bouncemanagement via bounce_it.php"
+msgstr "Automatic bounce management via bounce_it.php"
 
 msgid "Anzahl zu prüfender Mails in einem Durchlauf"
 msgstr "How many mails should be checked on each run"
 
 msgid "Host für Bouncemanagement"
-msgstr "Host for bouncemanagement"
+msgstr "Host for bounce management"
 
 msgid "Host für automatisches Bouncemanagement"
-msgstr "Host for automagic bouncemanagement"
+msgstr "Host for automagic bounce management"
 
 msgid "Aktion für Bouncemanagement"
-msgstr "Action for bouncemanagement"
+msgstr "Action for bounce management"
 
 msgid "Aktion für automatisches Bouncemanagement"
-msgstr "Aktion for automagic bouncemanagement"
+msgstr "Aktion for automagic bounce management"
 
 msgid "Suche nach Adressen"
 msgstr "Search for addresses"
@@ -4083,7 +4081,7 @@ msgid "E-Mail-Adresse (TO:) für Bouncemanagement"
 msgstr "Email address (TO:) for bouncemanagement"
 
 msgid "Filtern nach E-Mail-Adrese (TO:)"
-msgstr "Filter emailddress (TO:)"
+msgstr "Filter email address (TO:)"
 
 msgid "Filter  E-Mail-Adrese (TO:)"
 msgstr "Filter email address (TO:)"
@@ -4095,7 +4093,7 @@ msgid "Die Filter E-Mail-Adresse für die automatische Prüfung ist nicht gülti
 msgstr "The filter email address for automatic verification is invalid"
 
 msgid "Die Filter E-Mail-Adresse für das  automatische Bouncemanagement ist nicht gültig."
-msgstr "The filter email address for automatic bouncemanagement is invalid"
+msgstr "The filter email address for automatic bounce management is invalid"
 
 msgid "zur Prüfung vormerken"
 msgstr "mark for recheck/verification"
@@ -4124,7 +4122,7 @@ msgid "%s Adressen sind deaktiviert"
 msgstr "%s addresses deactivated"
 
 msgid "Importierte Adressen zur Prüfung vormerken"
-msgstr "Mark imported addresses for recheck/verificaton"
+msgstr "Mark imported addresses for recheck/verification"
 
 msgid "Zur automatiscen Prüfung vormerken"
 msgstr "Mark for recheck/verification"
@@ -4151,7 +4149,7 @@ msgid "Ausgewählte Adressen werden geprüft"
 msgstr "Checking selected addresses"
 
 msgid "Status für fehlerhafte Adressen wird geändert."
-msgstr "Status for errorness addresses will be changed"
+msgstr "Status for addresses with errors will be changed"
 
 msgid "Syntax"
 msgstr "Syntax"
@@ -4178,7 +4176,7 @@ msgstr "%s Addresses marked for recheck/verification (with filter)"
 
 #, c-format
 msgid "%s Adressen sind deaktivert (gefiltert)"
-msgstr "%s Addressess are deactivated (with filter)"
+msgstr "%s Addresses deactivated (with filter)"
 
 msgid "E-Mail Prüfen"
 msgstr "Checking email"
@@ -4208,17 +4206,17 @@ msgid "Such-Parameter zurücksetzen"
 msgstr "Reset search parameters"
 
 msgid "Automatisches Bouncemanagement manuell starten"
-msgstr "Manually run automatic bouncemanagement"
+msgstr "Manually run automatic bounce management"
 
 msgid "Manuelle Ausführung des automatischen Bouncemanagements"
-msgstr "Manually run automatic bouncemanagement"
+msgstr "Manually run automatic bounce management"
 
 #, c-format
 msgid "Sie möchten das Script %s über den Browser ausführen."
-msgstr "You try to run the script %s via browser."
+msgstr "try to run the script %s via browser."
 
 msgid "Bevor Sie die Datei ausführen können, müssen Sie den exit; Befehl in der Datei  entfernen und die Einstellugen überprüfen."
-msgstr "Bevor you can run the script you must remove the exit: statement at top of the file and check settings"
+msgstr "Before you can run the script you must remove the exit: statement at top of the file and check settings"
 
 msgid "Es wird empfohlen das Sie das Script über einen sogenannten Cronjob per PHP-Command-Line-Interface (PHP-CLI) ausführen."
 msgstr "It is recommended to run this script via a cronjob with PHP command line executable."
@@ -4235,7 +4233,7 @@ msgstr "Example for cronjob."
 
 #, c-format
 msgid "Weitere Infos hierzu finden Sie in der %s Datei oder unter %s."
-msgstr "More infos you can find in the file %s and %s"
+msgstr "more information here: %s and %s"
 
 #, c-format
 msgid "Wenn Sie jetzt das Script %s über den Browser starten wollen, klicken Sie hier:"
@@ -4250,7 +4248,7 @@ msgstr "Only emails to %s will be searched."
 
 #, c-format
 msgid "%s Mails gefunden"
-msgstr "Fund %s mails"
+msgstr "%s mails found"
 
 msgid "Prüfung manuell starten"
 msgstr "Start verification manually"
@@ -4298,13 +4296,13 @@ msgid "Fehler beim öffnen von %s."
 msgstr "Error opening %s"
 
 msgid "Kann Tellmatic News nicht öffnen."
-msgstr "Can not open Tellmatic news"
+msgstr "Cannot open Tellmatic news"
 
 msgid "Kann Tellmatic Versionsinfo nicht öffnen"
-msgstr "Can not open Tellmatic Versioninfo"
+msgstr "Cannot open Tellmatic Version info"
 
 msgid "Server lehnt Mail ab, temporaerer Fehler, Greylisting etc."
-msgstr "Server rejects mail, temporary failure, greylisting etc."
+msgstr "Server rejects mail, temporary failure, grey listing etc."
 
 msgid "Kann Verbindung zum Server nicht herstellen."
 msgstr "Can not connect to server."
@@ -4319,7 +4317,7 @@ msgid "Hier erstellen Sie neue Vorlagen oder kopieren einen neuen Newsletter aus
 msgstr "Here you can create new templates or copy a template to create a new newsletter from it"
 
 msgid "Adressen suchen"
-msgstr "Seatch addresses"
+msgstr "Search addresses"
 
 msgid "auto-Bounce"
 msgstr "auto-Bounce"
@@ -4328,16 +4326,16 @@ msgid "automatisches Bouncemanagement"
 msgstr "automagic boundemanagement"
 
 msgid "Hier starten Sie das automatische Bouncemanagement manuell"
-msgstr "Here you can manually run the automatic bouncemanagement script"
+msgstr "Here you can manually run the automatic bounce management script"
 
 msgid "Prüfen"
 msgstr "Check"
 
 msgid "E-Mail-Adressen prüfen"
-msgstr "Checkemail"
+msgstr "Check email"
 
 msgid "markierte E-Mail-Adressen prüfen"
-msgstr "check markedemails"
+msgstr "check marked emails"
 
 msgid "Wasserzeichen hinzufügen"
 msgstr "Add watermark"
@@ -4469,7 +4467,7 @@ msgid "Letzten/Neuesten Eintrag behalten"
 msgstr "Keep latest/newest"
 
 msgid "Zufälligen Eintrag behalten"
-msgstr "Kepp random"
+msgstr "Keep random"
 
 msgid "Details zu allen Duplikaten anzeigen"
 msgstr "Show details on all duplicates"
@@ -4539,10 +4537,10 @@ msgid "Link bearbeiten"
 msgstr "Edit link"
 
 msgid "Kürzel sollte nicht leer sein."
-msgstr "Shortname should not be empty"
+msgstr "Short name should not be empty"
 
 msgid "Kürzel sollte nicht numerisch sein."
-msgstr "Shortname should not be numeric"
+msgstr "Short name should not be numeric"
 
 msgid "Bitte mindestens eine Gruppe wählen."
 msgstr "Please choose at least one group."
@@ -4555,7 +4553,7 @@ msgid "Neuen Link erstellen / Link bearbeiten"
 msgstr "Create new link, edit link"
 
 msgid "Kurzbezeichnung/Kürzel"
-msgstr "Shortname"
+msgstr "Short name"
 
 msgid "Kürzel"
 msgstr "Short"
@@ -4626,7 +4624,7 @@ msgid "Gruppe löschen und Einträge der Gruppe löschen (Einträge werden kompl
 msgstr "Delete group and all items. (Items get deleted and references are removed from all other groups)"
 
 msgid "Eine Gruppe mit diesem Kürzel existiert bereits. Das Kürzel muss eindeutig sein."
-msgstr "An group with this shortname already exists"
+msgstr "An group with this short name already exists"
 
 #, c-format
 msgid "Neue Gruppe %s (%s) wurde erstellt."
@@ -4645,7 +4643,7 @@ msgid "Neuen Link eintragen"
 msgstr "Create new link"
 
 msgid "Eine Eintrag mit diesem Kürzel existiert bereits. Das Kürzel muss eindeutig sein."
-msgstr "An entry with this shortname already exists"
+msgstr "An entry with this short name already exists"
 
 #, c-format
 msgid "Neuer Eintrag %s (%s) wurde erstellt."
@@ -4793,30 +4791,30 @@ msgid "Hier erstellen Sie Ihre Links"
 msgstr "Create new link"
 
 msgid "Tracking personalisiert"
-msgstr "Personalized tracking"
+msgstr "Personalised tracking"
 
 #, c-format
 msgid "%s / %s erstellt einen Link anhand eines Kurznamen oder ID"
-msgstr "%s / %s creates a link by shortname or id"
+msgstr "%s / %s creates a link by short name or id"
 
 msgid "kurz"
 msgstr "short"
 
 #, c-format
 msgid "%s / %s erstellt einen 'a href' anhand eines Kurznamen oder ID"
-msgstr "%s / %s creates 'a href' by shortname or id"
+msgstr "%s / %s creates 'a href' by short name or id"
 
 #, c-format
 msgid "%s / %s zeigt die URL anhand eines Kurznamen oder ID"
-msgstr "%s / %s shows URL of a link by shortname or id"
+msgstr "%s / %s shows URL of a link by short name or id"
 
 #, c-format
 msgid "%s / %s zeigt die RAW-URL anhand eines Kurznamen oder ID"
-msgstr "%s / %s shows raw URL from a link by shortname or id"
+msgstr "%s / %s shows raw URL from a link by short name or id"
 
 #, c-format
 msgid "%s / %s zeigt eine Liste von Links aus einer Gruppe anhand eines Kurznamen oder ID"
-msgstr "%s / %s creates links from a group by shortname or id"
+msgstr "%s / %s creates links from a group by short name or id"
 
 msgid "personalisiertes Tracking"
 msgstr "Personalized tracking"
@@ -4953,7 +4951,7 @@ msgid "Status: Map"
 msgstr "Status: Map"
 
 msgid "Verwaltung: Bouncemanagement"
-msgstr "Management: Bouncemenagement"
+msgstr "Management: Bounce menagement"
 
 msgid "Verwaltung: DB Bereinigen"
 msgstr "Management: Clean DB"
@@ -4997,7 +4995,7 @@ msgid "Nicht Produktiv"
 msgstr "Not productive"
 
 msgid "Gruppe ist Produktiv / nicht Produktiv (Klick=Ändern)"
-msgstr "Gorup is productive / not prductive (Click=Change)"
+msgstr "Group is productive / not productive (Click=Change)"
 
 msgid "Proofing"
 msgstr "Proofing"
@@ -5080,7 +5078,7 @@ msgid "Aktulisierungs-Mail"
 msgstr "Update-Mail"
 
 msgid "Newsletter welcher als Aktualisierungs-Mail verschickt wird"
-msgstr "Newsletter that is send as Update Mail"
+msgstr "Newsletter that is sent as an Update Mail"
 
 msgid "Template bearbeiten"
 msgstr "Edit Template"
@@ -5093,7 +5091,7 @@ msgid "Dieses Formular als Standardformular"
 msgstr "This is the default form."
 
 msgid "Standardformular (kann nicht de-aktiviert und gelöscht werden)"
-msgstr "Default Form. (Can not be de-activated or deleted)"
+msgstr "Default Form. (Cannot be de-activated or deleted)"
 
 msgid "Nur neue öffentliche Gruppen Referenzen hinzufügen"
 msgstr "Add only new public group references."
@@ -5163,10 +5161,10 @@ msgid "%s enthält den Betreff"
 msgstr "%s contains the subject"
 
 msgid "Q mit fehlgeschlagenen und übersprungenen Adressen neu starten."
-msgstr "Restart Q with skipped and errorness entries"
+msgstr "Restart Q with skipped and error detected entries"
 
 msgid "Q mit fehlgeschlagenen und übersprungenen Adressen neu starten"
-msgstr "Restart Q with skipped and errorness entries"
+msgstr "Restart Q with skipped and error detected entries"
 
 msgid "Newsletter-Templates"
 msgstr "Newsletter-Templates"

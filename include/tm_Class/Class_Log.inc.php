@@ -5,9 +5,9 @@
 */
 /********************************************************************************/
 /* this file is part of: / diese Datei ist ein Teil von:                        */
-/* tellmatic, the newslettermachine                                             */
+/* newsletter-tellmatic [v1.0.10] https://github.com/gaiterjones/tellmatic      */
 /* tellmatic, die Newslettermaschine                                            */
-/* 2006/7 by Volker Augustin, multi.art.studio Hanau                            */
+/* ORIGINAL RELEASES 2006/7 by Volker Augustin                                  */
 /* Contact/Kontakt: info@tellmatic.org                                      */
 /* Homepage: www.tellmatic.org                                                   */
 /* leave this header in file!                                                   */
